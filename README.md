@@ -37,3 +37,13 @@ online. Below an example how the returned Array can look like.
       print "Server is offline.";
     }
     ?>
+
+### Example No. 2
+
+    <?php
+    $info = fetch_server_info("127.0.0.1");
+    if ($info!=false)
+      print "Server is online.";
+    else
+      print "Server is offline.";
+    ?>
